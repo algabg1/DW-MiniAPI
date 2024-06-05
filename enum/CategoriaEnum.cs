@@ -1,0 +1,31 @@
+﻿namespace MinimalAPI.enumerator
+{
+    public enum CategoriaEnum
+    {
+        BRIOFITA,
+        PTERIDOFITA,
+        GIMNOSPERMA,
+        ANGIOSPERMA,
+        HERBACEA,
+        ARBUSTO,
+        ARVORE,
+        TREPADEIRA,
+        SUCULENTA,
+        CACTO,
+        ORQUIDEA,
+        BROMELIA,
+        AEROFITA,
+        HIDROFITA,
+        XEROFITA,
+        LITOFITA,
+        EPIFITA,
+        CAMPESTRE,
+        RIPICOLA,
+        PARASITA,
+        CARNIVORA,
+        AQUATICA,
+        LAGUNAR,
+        FLORESTAL,
+        CAMPONESA
+    }
+}

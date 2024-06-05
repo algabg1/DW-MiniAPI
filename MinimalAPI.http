@@ -1,0 +1,77 @@
+﻿@MinimalAPI_HostAddress = https://localhost:32778
+###
+POST {{MinimalAPI_HostAddress}}/usuarios
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "email": "breno.rune@hotmail.com",
+  "senha": "wjfilwjfew"
+ 
+}
+###
+
+GET {{MinimalAPI_HostAddress}}/usuarios
+
+###
+POST {{MinimalAPI_HostAddress}}/noticias
+Content-Type: application/json
+
+{
+  "titulo":"walk dog",
+  "conteudo": "blblspowejfiowej f f fhuwi fhuwief"
+ 
+}
+###
+
+GET {{MinimalAPI_HostAddress}}/noticias
+
+
+###
+POST {{MinimalAPI_HostAddress}}/projetos
+Content-Type: application/json
+
+{
+  "nome":"plantação de ervas",
+  "descricao": "blblspowejfiowej f f fhuwi fhuwief",
+  "tipoProjeto": "PAISAGISMO"
+ 
+ 
+}
+###
+
+GET {{MinimalAPI_HostAddress}}/projetos
+
+
+###
+POST {{MinimalAPI_HostAddress}}/plantas
+Content-Type: application/json
+
+{
+    "nome": "Planta Exemplo",
+    "nomeCientifico": "Plantae Exemplum",
+    "descricao": "Uma planta de exemplo para demonstração.",
+    "origem": "Brasil",
+    "cuidados": "Necessita de rega semanal e luz indireta.",
+    "categoria": "BRIOFITA"
+}
+
+###
+
+GET {{MinimalAPI_HostAddress}}/plantas
+
+
+###
+POST {{MinimalAPI_HostAddress}}/comentarios
+Content-Type: application/json
+
+{
+    "conteudo": "Este é um comentário de exemplo."
+}
+
+
+
+
+###
+
+GET {{MinimalAPI_HostAddress}}/comentarios
