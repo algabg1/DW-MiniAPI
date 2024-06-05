@@ -10,7 +10,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["MinimalAPI/MinimalAPI.csproj", "MinimalAPI/"]
-RUN dotnet restore "./MinimalAPI/MinimalAPI.csproj"
+RUN dotnet restore "./MinimalAPI.csproj"
 COPY . .
 WORKDIR "/src/MinimalAPI"
 RUN dotnet build "./MinimalAPI.csproj" -c $BUILD_CONFIGURATION -o /app/build
